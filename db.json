@@ -1,56 +1,32 @@
 {
-  "users": [
-    {
-      "username": "John.x.Doe",
-      "age": 32,
-      "favourite_music_genre": "Jazz",
-      "preferred_programming_language": "Javascript",
-      "best_frontend_framework": "Vue",
-      "id": 1
-    },
-    {
-      "id": 2,
-      "username": "SniperxXx",
-      "age": 23,
-      "favourite_music_genre": "Rap",
-      "preferred_programming_language": "Python",
-      "best_frontend_framework": "React"
-    }
-  ],
-  "polls": [
-    {
-      "question": "Favourite Music Genre?",
-      "options": [
-        "Rock",
-        "Pop",
-        "Country",
-        "Rap",
-        "Jazz",
-        "Hip Hop",
-        "RNB",
-        "None",
-        "Depends"
-      ]
-    },
-    {
-      "question": "Preferred Programming Language?",
-      "options": [
-        "Java",
-        "C",
-        "C++",
-        "C#",
-        "Javascript",
-        "Python",
-        "Kotlin"
-      ]
-    },
-    {
-      "question": "Better Frontend JS Framework?",
-      "options": [
-        "React",
-        "Vue",
-        "Angular"
-      ]
-    }
+  "indicators":[
+      {
+          "id":1,
+          "date": "2022 Q1",
+          "euribor3":"-0.569",
+          "gdprate":"-0.65"
+
+      },
+      {
+          "id":2,
+          "date": "2022 Q2",
+          "euribor3":"-0.575",
+          "gdprate":"1.35"
+
+      },
+      {
+          "id":3,
+          "date": "2022 Q3",
+          "euribor3":"-0.578",
+          "gdprate":"0.95"
+
+      },
+      {
+          "id":4,
+          "date": "2022 Q4",
+          "euribor3":"-0.575",
+          "gdprate":"0.15"
+
+      }
   ]
 }
